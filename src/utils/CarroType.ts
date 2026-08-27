@@ -14,4 +14,8 @@ export type CarroType = {
     combustivel: string
     marcaId: number
     marca: MarcaType
+    pontosFortes: string[]
+    pontosFracos: string[]
+    consumoMedioCidade: number
+    consumoMedioEstrada: number
 }
